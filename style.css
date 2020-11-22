@@ -125,7 +125,7 @@ main {
 }
 .main-exchange-container__title {
   width: 90%;
-  min-width: 238px;
+  min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -133,13 +133,20 @@ main {
   margin-bottom: 3rem;
   font-size: 2.4rem;
   font-weight: bold;
-  height: 2.6rem;
+  line-height: 2.6rem;
   color: black;
 }
 .main-exchange-container__title p {
   margin-bottom: 3rem;
   font-size: 1.4rem;
   font-weight: 500;
-  height: 1.6rem;
+  line-height: 1.6rem;
   color: #757575;
+}
+.bitcoin-icon {
+  width: 2rem;
+  height: 2rem;
+  background-image: url(/assets/icons/trending-down.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
