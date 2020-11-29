@@ -122,6 +122,7 @@ main {
   background-image: url(./assets/imges/Bitcoin.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .main-exchange-container__title {
   width: 90%;
@@ -143,10 +144,16 @@ main {
   line-height: 1.6rem;
   color: #757575;
 }
+
+/* TABLES */
+.main-currency-table {
+  width: 70%;
+}
 .bitcoin-icon {
   width: 2rem;
   height: 2rem;
-  background-image: url(/assets/icons/trending-down.svg);
+  background-image: url(./assets/icons/trending-down.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
