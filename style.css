@@ -157,10 +157,11 @@ main {
 }
 .main-currency-table .currency-table__tittle {
   margin-bottom: 1.5rem;
+  font-family: var(--font-dm-sans);
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
-  text-align: left;
+  /* text-align: left; */
   color: var(--bitcoin-orange);
 }
 .currency-table__container {
@@ -220,6 +221,20 @@ main {
   background-size: cover;
   background-position: center;
 }
-/* .currency-table__container table tr :first-child {
-  text-align: left;
-} */
+.currency-table__container table tr :first-child {
+  /* text-align: left; */
+}
+.currency-table-date {
+  width: 190px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 1rem;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+.currency-table-date p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: var(--warm-black);
+}
