@@ -155,6 +155,9 @@ main {
   margin: 0 auto 2.5rem;
   font-family: var(--font-inter);
 }
+.main-commission-table {
+  margin-bottom: 0;
+}
 .main-currency-table .currency-table__tittle {
   color: var(--bitcoin-orange);
 }
@@ -254,4 +257,47 @@ main {
   line-height: 1.5rem;
   font-weight: 300;
   color: var(--warm-black);
+}
+
+/* BENEFITS SECTION */
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 2rem 1rem;
+  background-color: var(--warm-black);
+}
+.product-detail__batata-logo {
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 25px;
+  background-image: url(./assets/icons/batata.svg);
+  background-position: center;
+  background-repeat: none;
+  /* background-size: cover; */
+}
+.product-detail__title {
+  width: 90%;
+  min-width: 288px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.product-detail__title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: white;
+}
+.product-detail__title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
