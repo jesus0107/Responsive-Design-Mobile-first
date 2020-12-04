@@ -278,7 +278,6 @@ main {
   background-image: url(./assets/icons/batata.svg);
   background-position: center;
   background-repeat: none;
-  /* background-size: cover; */
 }
 .product-detail__title {
   width: 90%;
@@ -299,5 +298,42 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
+  color: #808080;
+}
+
+/* BENEFITS -- CARDS */
+.product__cards-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product__cards-container .clock {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(./assets/icons/clock.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.product__card-title {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+}
+.product__card-body {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: normal;
   color: #808080;
 }
