@@ -302,7 +302,7 @@ main {
 }
 
 /* BENEFITS -- CARDS */
-.product__cards-container {
+.product__card-container {
   width: 90%;
   min-width: 288px;
   max-width: 400px;
@@ -313,16 +313,26 @@ main {
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-
-.product__cards-container .clock {
+.product__card-container .product__icon {
   display: inline-block;
   width: 20px;
   height: 20px;
   margin-bottom: 10px;
-  background-image: url(./assets/icons/clock.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.clock {
+  background-image: url(./assets/icons/clock.svg);
+}
+.eye {
+  background-image: url(./assets/icons/eye.svg);
+}
+.dollar {
+  background-image: url(./assets/icons/dollar-sign.svg);
+}
+.check {
+  background-image: url(./assets/icons/check-circle.svg);
 }
 .product__card-title {
   font-size: 1.8rem;
