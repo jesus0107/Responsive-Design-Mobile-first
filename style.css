@@ -31,6 +31,7 @@
 html {
   font-size: 62.5%;
   font-family: var(--font-dm-sans);
+  scroll-behavior: smooth;
 }
 
 header {
@@ -348,6 +349,7 @@ main {
   color: #808080;
 }
 
+/* WILDCARD */
 .bitcoin-img-container {
   width: 100%;
   min-width: 320px;
@@ -364,4 +366,37 @@ main {
   line-height: 2.6rem;
   font-weight: bold;
   color: white;
+}
+
+/* PLAN SECTION */
+.main-plans-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+.plans__title-container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.plans__title-container h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  columns: var(--warm-black);
+  margin-bottom: 25px;
+}
+.plans__title-container p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #757575;
+  margin-bottom: 40px;
+}
+
+/* CARDS SLIDER */
+.plans-container__cards-slider {
+}
+.plans-container__card {
+  width: 60%;
 }
