@@ -399,10 +399,18 @@ main {
 
 /* CARDS SLIDER */
 .plans-container__cards-slider {
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  padding-top: 16px;
+  gap: 50px;
 }
 /* CARD RECOMENDED*/
 .plan-container__card {
   position: relative;
+  scroll-snap-align: center;
   width: 60%;
   min-width: 230px;
   max-width: 300px;
