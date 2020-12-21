@@ -1,0 +1,13 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.plans-container__cards-slider {
+  justify-content: center;
+}
+.main-tables-container {
+  justify-content: center;
+}
