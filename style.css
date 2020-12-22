@@ -46,10 +46,7 @@ header {
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 header img {
-  width: 15rem;
-  height: 2.4rem;
   margin: 3rem 0;
-  align-self: center;
 }
 .header-title-container {
   width: 90%;
@@ -199,8 +196,7 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  color: var(--gray);
-  background-color: white;
+  color: var(--black);
 }
 .currency-table__container .table--top-left,
 .commission-table__container .table--top-left {
@@ -223,7 +219,7 @@ main {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
-  color: #757575;
+  color: var(--warm-black);
 }
 .currency-table__container .down {
   display: inline-block;
@@ -361,7 +357,7 @@ main {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background-image: url(./assets/imges/bitcoinbaby2x.jpg);
+  background-image: url(./assets/imges/bitcoinbaby.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -414,7 +410,9 @@ main {
   padding-top: 16px;
 }
 /* CARD RECOMENDED*/
-.plan-container__card {
+.plan-container__card,
+.basic-container__card,
+.premium-container__card {
   position: relative;
   scroll-snap-align: center;
   width: 60%;
@@ -426,170 +424,8 @@ main {
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border-radius: 15px;
 }
-.plan-container__card .float-button {
-  position: absolute;
-  width: 100px;
-  left: calc(50% - 50px);
-  top: calc(50% - 140.5px);
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  padding: 8px;
-  color: white;
-  background-color: var(--bitcoin-orange);
-  border-radius: 8px;
-}
-.plan-container__description {
-  width: 80%;
-  height: 100%;
-  padding: 30px 0 0;
-  margin: 0 auto;
-}
-.plan-container__description h3 {
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-  margin-bottom: 10px;
-  color: black;
-}
-.plan-container__description .price {
-  margin-bottom: 5px;
-  font-family: var(--font-inter);
-  font-size: 5.2rem;
-  line-height: 6.3rem;
-  font-weight: bold;
-  color: black;
-}
-.plan-container__description .price span {
-  font-size: 1.2rem;
-  line-height: 1.45rem;
-  font-size: 1.2rem;
-  font-weight: 300;
-  vertical-align: calc(50% + 26px);
-}
-.plan-container__description .price-description {
-  font-size: 1.2rem;
-  line-height: 1.452rem;
-  color: #757575;
-  margin-bottom: 15px;
-}
-.plan-container__description .plan__ca {
-  width: 150px;
-  padding: 11px 15px;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-  font-weight: bold;
-  font-family: var(--font-dm-sans);
-  background-color: var(--off-white);
-  border: 2px solid var(--bitcoin-orange);
-  color: var(--black);
-  border-radius: 4px;
-  outline: none;
-}
-.plan-container__description .plan__ca .orange-right-arrow {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-left: 5px;
-  background-image: url(./assets/icons/orange-right-arrow.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  vertical-align: text-bottom;
-}
-
-/* BASIC */
-.basic-container__card {
-  position: relative;
-  width: 60%;
-  min-width: 230px;
-  max-width: 300px;
-  height: 250px;
-  margin: 0 25px;
-  background-color: var(--off-white);
-  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-  border-radius: 15px;
-}
-.basic-container__card .basic__float-button {
-  position: absolute;
-  width: 100px;
-  left: calc(50% - 50px);
-  top: calc(50% - 140.5px);
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  padding: 8px;
-  color: white;
-  background-color: var(--secondary-blue);
-  border-radius: 8px;
-}
-.basic-container__description {
-  width: 80%;
-  height: 100%;
-  padding: 30px 0 0;
-  margin: 0 auto;
-}
-.basic-container__description h3 {
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-  margin-bottom: 10px;
-  color: black;
-}
-.basic-container__description .basic__price {
-  margin-bottom: 5px;
-  font-family: var(--font-inter);
-  font-size: 5.2rem;
-  line-height: 6.3rem;
-  font-weight: bold;
-  color: black;
-}
-.basic-container__description .basic__price span {
-  font-size: 1.2rem;
-  line-height: 1.45rem;
-  font-size: 1.2rem;
-  font-weight: 300;
-  vertical-align: calc(50% + 26px);
-}
-.basic-container__description .basic__price-description {
-  font-size: 1.2rem;
-  line-height: 1.452rem;
-  color: #757575;
-  margin-bottom: 15px;
-}
-.basic-container__description .basic__ca {
-  width: 150px;
-  padding: 11px 15px;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-  font-weight: bold;
-  font-family: var(--font-dm-sans);
-  background-color: var(--off-white);
-  border: 2px solid var(--secondary-blue);
-  color: var(--black);
-  border-radius: 4px;
-  outline: none;
-}
-.basic-container__description .basic__ca .blue-right-arrow {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-left: 5px;
-  background-image: url(./assets/icons//blue-arrow.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  vertical-align: text-bottom;
-}
-
-/* PREMIUM */
-.premium-container__card {
-  position: relative;
-  width: 60%;
-  min-width: 230px;
-  max-width: 300px;
-  height: 250px;
-  margin: 0 25px;
-  background-color: var(--off-white);
-  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-  border-radius: 15px;
-}
+.plan-container__card .float-button,
+.basic-container__card .basic__float-button,
 .premium-container__card .premium__float-button {
   position: absolute;
   width: 100px;
@@ -598,23 +434,41 @@ main {
   font-size: 1.2rem;
   line-height: 1.5rem;
   padding: 8px;
-  color: var(--bitcoin-orange);
-  font-weight: bold;
-  background-color: var(--black);
   border-radius: 8px;
 }
+.plan-container__card .float-button,
+.basic-container__card .basic__float-button {
+  color: white;
+}
+.premium-container__card .premium__float-button {
+  color: var(--bitcoin-orange);
+  background-color: var(--black);
+  font-weight: bold;
+}
+.plan-container__card .float-button {
+  background-color: var(--bitcoin-orange);
+}
+.basic-container__card .basic__float-button {
+  background-color: var(--secondary-blue);
+}
+.plan-container__description,
+.basic-container__description,
 .premium-container__description {
   width: 80%;
   height: 100%;
   padding: 30px 0 0;
   margin: 0 auto;
 }
+.plan-container__description h3,
+.basic-container__description h3,
 .premium-container__description h3 {
   font-size: 1.4rem;
   line-height: 1.8rem;
   margin-bottom: 10px;
   color: black;
 }
+.plan-container__description .price,
+.basic-container__description .basic__price,
 .premium-container__description .premium__price {
   margin-bottom: 5px;
   font-family: var(--font-inter);
@@ -623,6 +477,8 @@ main {
   font-weight: bold;
   color: black;
 }
+.plan-container__description .price span,
+.basic-container__description .basic__price span,
 .premium-container__description .premium__price span {
   font-size: 1.2rem;
   line-height: 1.45rem;
@@ -630,12 +486,16 @@ main {
   font-weight: 300;
   vertical-align: calc(50% + 26px);
 }
+.plan-container__description .price-description,
+.basic-container__description .basic__price-description,
 .premium-container__description .premium__price-description {
   font-size: 1.2rem;
   line-height: 1.452rem;
   color: #757575;
   margin-bottom: 15px;
 }
+.plan-container__description .plan__ca,
+.basic-container__description .basic__ca,
 .premium-container__description .premium__ca {
   width: 150px;
   padding: 11px 15px;
@@ -643,22 +503,38 @@ main {
   line-height: 1.8rem;
   font-weight: bold;
   font-family: var(--font-dm-sans);
-  background-color: var(--off-white);
-  border: 2px solid var(--bitcoin-orange);
   color: var(--black);
   border-radius: 4px;
   outline: none;
+  background-color: var(--off-white);
 }
+
+.premium-container__description .premium__ca {
+  border: 2px solid var(--bitcoin-orange);
+}
+.plan-container__description .plan__ca {
+  border: 2px solid var(--bitcoin-orange);
+}
+.basic-container__description .basic__ca {
+  border: 2px solid var(--secondary-blue);
+}
+.plan-container__description .plan__ca .orange-right-arrow,
+.basic-container__description .basic__ca .blue-right-arrow,
 .premium-container__description .premium__ca .orange-right-arrow {
   display: inline-block;
   width: 20px;
   height: 20px;
   margin-left: 5px;
-  background-image: url(./assets/icons/orange-right-arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   vertical-align: text-bottom;
+}
+.orange-right-arrow {
+  background-image: url(./assets/icons/orange-right-arrow.svg);
+}
+.basic-container__description .basic__ca .blue-right-arrow {
+  background-image: url(./assets/icons//blue-arrow.svg);
 }
 
 /* FOOTER */

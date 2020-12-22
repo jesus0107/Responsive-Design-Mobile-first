@@ -7,7 +7,12 @@
 
 .plans-container__cards-slider {
   justify-content: center;
+  overflow-x: hidden;
 }
 .main-tables-container {
   justify-content: center;
+  overflow-x: hidden;
+}
+.bitcoin-img-container {
+  background-image: url(/assets/imges/bitcoinbaby2x.png);
 }
